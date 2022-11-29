@@ -11,7 +11,7 @@ Das kann nicht gut für die Anlage sein und effizient
 ist es mit Sicherheit auch nicht.
 
 Ursache: Die Heizung startet mit 60% Brennerleistung
-und fährt nach einpaar Sekunden auf 16% zurück. Allein
+und fährt nach ein paar Sekunden auf 16% zurück. Allein
 steigt in diesem kurzen Zeitraum die Kesseltemperatur
 so stark an, dass die Heizung abschaltet. Dann erst
 spült die Pumpe kälteres Wasser aus dem Kreislauf nach
@@ -20,18 +20,16 @@ Minuten ist es dann so kalt, dass das ganze Spiel von
 vorn los geht.
 
 Versuche, die Vorlauftemperatur abzusenken oder anzuheben,
-sind ohne Erfolg.
-
-Die Steuerung der Heizungssteuerung erkennt in der Startphase eine
-hohe Kesseltemperatur und schaltet sofort ab. Laut sind 
-dies wohl 8 K über Soll Vorlauftemperatur.
+sind ohne Erfolg: Denn die Steuerung der Heizung erkennt in
+der Startphase eine hohe Kesseltemperatur und schaltet sofort
+ab. Laut Doku sind dies wohl 8 K über Soll Vorlauftemperatur.
 
 Meine Idee war daher:
 
 Die optische Schnittstelle der Heizung nutzen, um da
 irgendwie gegen zu steuern.
 
-Gesagt, getan. Elemente sind:
+Gesagt, getan. Die Elemente sind:
 
 * Ein D1 Mini (ESP8266)
 * Einige Bauteile
@@ -61,6 +59,9 @@ So startet der Brenner nur noch 2 mal pro Stunde und
 nicht mehr 12-15 mal und läuft auch mal ein paar Minuten durch.
 
 Details folgen...
-
+* Schaltpläne
+* Code
+* Diagramme
+* Fotos
 
 
