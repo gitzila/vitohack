@@ -44,7 +44,7 @@ Soll-RT für 1 Minute auf 37°C. Das "hilft" dem Brenner
 über die starke Hitzeentwicklung beim Anfahren zu kommen.
 Nach 1 Minute setzt er die Soll-RT wieder auf normal. Aktuell
 hier 22 Grad. Der Brenner läuft nun je nach Abnahme gute 5-20
-am Stück durch.
+Minuten am Stück durch.
 
 Geht der Brenner aus, wird die Soll-RT auf 18 Grad
 gesetzt, damit der Brenner nicht zu früh wieder angeht.
